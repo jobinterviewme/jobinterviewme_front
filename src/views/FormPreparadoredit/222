@@ -1,0 +1,16 @@
+  useEffect(() => {
+    RefreshUsuario()
+  }, []);
+
+  async function RefreshUsuario() {
+    const url = urlProfesional + "/" + id + "/profesional-agenda";
+    try {
+      const respuesta1 = await AxiosConexionConfig.get(url);
+      setAgenda(respuesta1.data);
+      //setUsuario(props.global.usuario)
+      setUsseName(props.global)
+      //console.log(props.global)
+    } catch (e) {
+      console.log(e);
+    }
+  }

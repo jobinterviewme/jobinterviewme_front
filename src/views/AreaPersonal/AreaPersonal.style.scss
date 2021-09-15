@@ -1,0 +1,129 @@
+.contenedorGris{
+    background-color: #ebe8e8 !important;
+    min-height: 400px;
+    margin: 50px 0 !important;
+    padding: 10px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    height: 88%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.contenedorGris h4{
+    margin-left: 10px;
+}
+
+.contenedorGris div{
+    border: 1px solid #c9c3c3;
+    border-radius: 5px;
+    background-color: white;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    
+}
+.contenedorGris h6{
+    margin-bottom: 0 !important;
+}
+
+
+.contenedorGris .cardCitas{
+    width: 80%;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #ee8572;
+    font-family: 'Gill Sans Nova';
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #ee8572;
+    align-content: center;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+
+.cardCitas{
+    background:red;
+    height:100px;
+    width:100px;
+    word-wrap: break-word;
+
+    
+    }
+
+    .ant-modal-confirm-body-wrapper {
+        padding: 32px 32px 24px;
+    }
+
+    .ant-btn{
+        margin-left: 8px ;
+    }
+
+    .headerNameTitle{
+        z-index: 1100;
+    }
+
+    .iconoVerPerfil{
+        color:white;
+    }
+
+    .iconPasarCitas{
+        color: #ee8572;
+        font-size: 24px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .DivIcon{
+       
+        transform: translate3d(22px, 22px, 30px);
+    }
+
+    .pasarCitas{
+        display: flex;
+        align-content: center;
+        align-items: center;
+     
+    }
+
+    .pasarCitas h4{
+        color: #ee8572 !important;
+        font-size: 13px !important;
+        margin-top: 6px;
+    }
+
+    .contenedorBlanco{
+        padding: 20px;
+    }
+
+    .este{
+        margin-bottom: 0 !important;
+    }
+
+    .contenedorGris .buttonN{
+        margin:0 !important;
+        width: 80% !important;
+        overflow: hidden !important;
+        min-height: 100px;
+        border-radius: 4px;
+    }
+
+
+    .contenedorGris h6{
+        font-size: 18px;
+        color: rgba(47, 45, 45, 0.85);
+        font-family: 'Gill Sans';
+        font-weight: 500;
+        text-transform: none;
+    }

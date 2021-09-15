@@ -1,0 +1,70 @@
+{
+    "sectores": [
+        {
+            "name": "Administración"
+        },
+        {
+            "name": "Agroindustria"
+        },
+        {
+            "name": "Audiovisual"
+        },
+        {
+            "name": "Automoción"
+        },
+        {
+            "name": "Banca"
+        },
+        {
+            "name": "Ciencia"
+        },
+        {
+            "name": "Comunicación"
+        },
+        {
+            "name": "Consultoría"
+        },
+        {
+            "name": "Digital & Ecommerce"
+        },
+        {
+            "name": "Educación"
+        },
+        {
+            "name": "Finanzas"
+        },
+        {
+            "name": "Hostelería"
+        },
+        {
+            "name": "Industrial"
+        },
+        {
+            "name": "Ingeniería"
+        },
+        {
+            "name": "Legal"
+        },
+        {
+            "name": "Logística y transporte"
+        },
+        {
+            "name": "Marketing"
+        },
+        {
+            "name": "Químico-Farma"
+        },
+        {
+            "name": "Salud"
+        },
+        {
+            "name": "Seguros"
+        },
+        {
+            "name": "Telecomunicaciones"
+        },
+        {
+            "name": "Ventas"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "idiomas": [
+        {
+            "nombre": "Español",
+            "codigo": "ES"
+        },
+        {
+            "nombre": "Francés",
+            "codigo": "FR"
+        },
+        {
+            "nombre": "Inglés",
+            "codigo": "GB"
+        },
+        {
+            "nombre": "Alemán",
+            "codigo": "DE"
+        },
+        {
+            "nombre": "Árabe",
+            "codigo": "SA"
+        },
+        {
+            "nombre": "Chino",
+            "codigo": "CN"
+        },
+        {
+            "nombre": "Holandés",
+            "codigo": "NL"
+        },
+        {
+            "nombre": "Hindú (Indio)",
+            "codigo": "IN"
+        },
+        {
+            "nombre": "Italiano",
+            "codigo": "IT"
+        },
+        {
+            "nombre": "Portugués",
+            "codigo": "PT"
+        },
+        {
+            "nombre": "Ruso",
+            "codigo": "RU"
+        }
+    ]
+}

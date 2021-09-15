@@ -1,0 +1,31 @@
+.MuiGrid-container {
+  margin-bottom: 55px;
+}
+
+.MuiGrid-container h2 {
+  color: #63b7af;
+  font-family: Gill Sans Nova Light;
+}
+
+#dos, #uno {
+  color: #ee8572;
+  font-family: Gill Sans Nova Light;
+}
+
+.makeStyles-section-97 {
+  padding: 0 !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .dosTexto{
+    transform: translate3d(0, 100%, 0);
+  }
+
+  .dosImg{
+    transform: translate3d(0, -100%, 0);
+
+  }
+  
+  }

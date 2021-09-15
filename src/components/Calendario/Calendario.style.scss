@@ -1,0 +1,30 @@
+.rmdp-day.rmdp-selected span:not(.highlight) {
+    background-color: #d83335;
+    box-shadow: 0 0 3px #8798ad;
+    color: white;
+}
+
+.rmdp-day.rmdp-selected span:focus {
+    background-color: #d83335;
+    box-shadow: 0 0 3px #8798ad;
+    color: white;
+}
+
+.rmdp-day.rmdp-today span:focus{
+    background-color: #d83335 !important;
+}
+
+.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+    background-color: #d83335 !important;
+    color: white;
+}
+
+.rmdp-panel-body li {
+    border-radius: 3px;
+    box-shadow: 0 0 2px #8798ad;
+    background-color: #d83335 !important;
+    color: white;
+    display: flex;
+    position: relative;
+    margin: 4px 1px;
+}

@@ -1,0 +1,176 @@
+.headerGreen {
+  background-color: #63b7af;
+  height: 250px !important;  
+}
+
+.imagenProfile{
+  margin-bottom: 15px !important;
+  height: 160px !important;
+}
+
+.experiencia p, .wrap p, .canalesSection p, .hashtags p{
+  color:#555 !important;
+  font-family: 'Gill Sans Nova';
+  font-weight: 300;
+  font-style: normal;  font-size: 18px !important;
+}
+
+#tabla table, #tabla th, thead{  
+  text-align: center;  
+}
+
+span:not(.usuarioCliente) .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):focus {
+  outline-offset: 0;
+  box-shadow: none !important;
+  cursor: default !important;
+}
+
+span:not(.usuarioCliente) .p-datepicker:not(.p-disabled) table td:not(.p-datepicker-today) span:not(.p-highlight):not(.p-disabled):hover {
+  background: white !important;
+  cursor: default !important;
+}
+
+span:not(.usuarioCliente) .p-datepicker table td.p-datepicker-today span:hover, .p-datepicker table td.p-datepicker-today span:focus {
+  cursor:default !important;
+  background: #ced4da !important;
+}    
+
+span:not(.usuarioCliente) .p-datepicker table td span:focus {  
+  box-shadow: none !important;
+  cursor: default !important;
+}
+span:not(.usuarioCliente) .p-datepicker table td span.p-highlight {
+  background:white !important;
+  cursor: default !important;
+}
+
+.experiencia{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.wrap{
+  word-wrap: break-word;
+}
+
+#sombra::before {
+  height: 0 !important;
+}
+
+.nameTitle{
+  color: white !important;
+  text-align: center !important;
+  width: inherit;
+}
+
+.headerNameTitle div{
+  margin: 0 !important;
+}
+
+.bandera{
+  height: 20px;
+  margin: 8px;
+}
+
+#banderasList{
+  margin-top: -40px !important;
+}
+
+.precio{
+  margin-top: 30px;
+  background-color: #d4f3ef;
+  border-radius: 30px;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+}
+.precioText{
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.sectores{
+  display: inline-flex;
+  font-size: 17px;
+}
+
+div .hashtags{
+  display: inline-flex;
+  font-size: 16px;
+  color:#ee8572;
+}
+
+p.sectores, p{
+  margin-top: 30px;
+  padding: 0 40px 0 30px;
+}
+
+.iconos{
+  width: 300px;
+  height: 30px;
+}
+
+.margen{
+  margin: 30px 1px;
+}
+
+#calendario1{
+  text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+
+  .headerGreen {
+    
+    margin: 50px 0 !important;
+  }
+  
+  }
+
+  .editarUsserIcon {
+    color: #555;
+    transform: translate3d(50px, -120px, 0);
+    font-size: 30px !important;
+    z-index: 5;
+    position: absolute;
+  }
+
+ #idCal .p-datepicker table td > span.p-highlight {
+    color: #495057;
+    background: #fff !important;
+    cursor:default;
+}
+
+#idCal .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
+  background: #fff !important;
+  cursor:default !important;
+
+}
+
+#idCal .p-datepicker table td > span:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0 #fff !important;
+}
+
+.p-disabled{
+  color:rgb(223, 219, 219) !important;
+}
+
+button.contratar{
+  margin-top: 20px !important;
+}
+
+.horarioTitle{
+  margin-left: 25%;
+}
+  
+.cargaTable{
+  margin-left: 45px;
+}
+
+.cargaCalendario{
+  margin-left: 40px;
+  margin-bottom: 400px;
+}

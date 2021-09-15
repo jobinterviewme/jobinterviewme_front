@@ -1,0 +1,90 @@
+.cardCitas{
+    width: 80%;
+    min-height: 80px;    
+    justify-content: center;
+    align-items: center;
+    display: inline-block !important;
+    padding: 0 !important;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;    
+    
+    span{
+        font-family: 'Gill Sans Nova' !important;
+        font-size: 18px !important;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-style: normal;        
+    }
+}
+
+.cardCitas button{
+    background-color: white;
+    border:0;
+}
+
+.cardCitas button:hover, .cardCitas button:focus{
+    cursor: pointer;
+}
+
+#warning{
+    
+    color: rgb(152, 51, 51);
+    border: 1px solid rgb(152, 51, 51);
+}
+#aceptado{
+    color: #63b7af;
+    border: 1px solid #63b7af;
+}
+#pendiente{
+    color: #ee8572;
+    border: 1px solid #ee8572;
+}
+#deshabilitado{
+    color: #bfb9b9;
+    border: 1px solid #bfb9b9;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2),0px 0px 0px 0px rgba(0,0,0,0.14),0px 0px 0px 0px rgba(0,0,0,0.12);
+}
+
+#deshabilitado:hover, #deshabilitado:focus{
+    transform: none;
+}
+
+.cardCitas:hover, .cardCitas:focus{
+    backface-visibility: hidden;
+    transform: scale(1.02, 1.02);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    opacity: 1;
+    background-color: white !important;
+}
+
+.check{
+    float: right;
+}
+
+.check button{
+    width: 50%;
+
+}
+
+.check button:hover{
+    transform: scale(1.02, 1.02);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    opacity: 1;
+    background-color: white !important;
+}
+
+#alerta{
+    font-size: 12px !important;
+    text-transform: none;
+}
+
+
+
+.hidden{
+    background-color: red;
+}

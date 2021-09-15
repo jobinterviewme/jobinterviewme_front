@@ -1,0 +1,28 @@
+{
+    "canales": [
+        {
+            "nombre": "Skype",
+            "codigo": "SK"
+        },
+        {
+            "nombre": "Zoom",
+            "codigo": "ZO"
+        },
+        {
+            "nombre": "Teams",
+            "codigo": "TE"
+        },
+        {
+            "nombre": "Google Meets",
+            "codigo": "GM"
+        },
+        {
+            "nombre": "Google Hangouts",
+            "codigo": "HG"
+        },
+        {
+            "nombre": "Jitsi",
+            "codigo": "JI"
+        }
+    ]
+}

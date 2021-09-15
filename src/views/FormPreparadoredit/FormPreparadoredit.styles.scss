@@ -1,0 +1,46 @@
+.headerGreen {
+  background-color: #63b7af;
+  height: 250px !important;
+  
+}
+
+.makeStyles-filter-86::before {
+  height: 0 !important;
+}
+.nameTitle{
+  color: white !important;
+  text-align: center !important;
+  width: inherit;
+}
+
+.headerNameTitle div{
+  margin: 0 !important;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+  .headerGreen {
+    
+    margin: 50px 0 !important;
+  }
+  
+  }
+
+  tr.p-highlight{
+    background-color: white !important;
+  }
+
+  .p-checkbox .p-checkbox-box.p-highlight{
+    border-color: #63b7af !important;
+background: #63b7af !important;
+  }
+
+  .p-checkbox-box.p-focus {
+    border-color: #63b7af !important;
+    box-shadow: 0 0 0 0.2rem #abf0e9 !important;
+  }
+
+  .p-checkbox-box:hover{
+    border-color: #63b7af !important;
+  }

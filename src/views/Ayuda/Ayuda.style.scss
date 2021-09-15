@@ -1,0 +1,56 @@
+.ojo{
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.tabUsuario{
+color:white !important;
+background-color: #fcccc3 !important;
+width: 49% !important;
+max-width: 100% !important;
+margin-top: 50px !important;
+margin-right: 5px !important;
+border-radius: 5px !important;
+}
+
+.tabPreparador{
+    color:white !important;
+    background-color: #d4f3ef !important;
+    width: 49% !important;
+    max-width: 100% !important;
+    margin-top: 50px !important;
+    border-radius: 5px !important;
+
+    }
+
+.tabUsuario.Mui-selected{
+    background-color: #ee8572 !important;
+}
+
+.tabPreparador.Mui-selected{
+    background-color: #63b7af !important; 
+}
+
+.UsuarioBlock .ant-tabs-tab-active{
+    background-color: #fcccc3 !important;
+    border-radius: 3px !important;
+}
+
+.ProfesionalBlock .ant-tabs-tab-active{
+    background-color: #d4f3ef  !important;
+    border-radius: 3px !important;
+}
+
+.UsuarioBlock .ant-tabs-tab-active div,.UsuarioBlock .ant-tabs-tab-active div:hover, .UsuarioBlock .ant-tabs-tab-active div:focus,  .ant-tabs-tab:hover  {
+    color: rgba(24, 23, 23, 0.85) !important;
+}
+
+.ProfesionalBlock .ant-tabs-tab-active div,.ProfesionalBlock .ant-tabs-tab-active div:hover, .ProfesionalBlock .ant-tabs-tab-active div:focus,  .ant-tabs-tab:hover  {
+    color: rgba(24, 23, 23, 0.85) !important;
+}
+
+.ojo span{
+    font-size: 16px !important;
+    font-family: "Gill Sans Nova Light";
+    font-weight: 700;
+}

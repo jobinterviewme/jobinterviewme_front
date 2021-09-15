@@ -1,0 +1,13 @@
+{
+    "perfiles": [
+        {
+            "name": "Junior (0 a 2 años)"
+        },
+        {
+            "name": "Semi-senior (2 a 5 años)"
+        },
+        {
+            "name": "Senior (6 o más)"
+        }
+    ]
+}

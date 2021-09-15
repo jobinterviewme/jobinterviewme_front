@@ -1,0 +1,115 @@
+@font-face
+{
+font-family: "Gill Sans Nova";
+src: url("fonts/GillSansNova-Medium.eot");
+src: url("fonts/GillSansNova-Medium.eot") format("embedded-opentype"),
+url("fonts/GillSansNova-Medium.woff") format("woff"),
+//url("fonts/GillSansNova-Medium.ttf") format("truetype"),
+//url("fonts/GillSansNova-Medium.svg") format("svg");
+}
+
+@font-face
+{
+font-family: "Gill Sans Nova Light";
+src: url("fonts/GillSansNova-Light.eot");
+src: url("fonts/GillSansNova-Light.eot") format("embedded-opentype"),
+url("fonts/GillSansNova-Light.woff") format("woff"),
+//url("fonts/GillSansNova-Medium.ttf") format("truetype"),
+//url("fonts/GillSansNova-Medium.svg") format("svg");
+}
+
+@font-face
+{
+font-family: "Gill Sans Nova Cond";
+src: url("fonts/GillSansNova-CnExtraBold.eot");
+src: url("fonts/GillSansNova-CnExtraBold.eot") format("embedded-opentype"),
+url("fonts/GillSansNova-CnExtraBold.woff") format("woff"),
+//url("fonts/GillSansNova-Medium.ttf") format("truetype"),
+//url("fonts/GillSansNova-Medium.svg") format("svg");
+}
+
+body{
+  font-family: "Gill Sans Nova" !important;
+}
+
+body h1 {
+  font-family: "Gill Sans Nova Cond" !important;
+  font-size: 60px;
+  font-weight: 500 !important;
+}
+h2, h4{
+  font-family: "Gill Sans Nova Cond" !important;
+  color: #999;
+}
+h3{
+  font-family: "Gill Sans Nova" !important;
+  color: #999;
+}
+.your-style {
+  font-family: "Gill Sans Nova Book";
+  font-weight: 500;
+  font-style: italic;
+}
+.logo,
+.logo span {
+  background-image: url("./assets/img/logo.png");
+  width: 50%;
+}
+@media only screen and (max-width: 720px) {
+  body h1 {    
+    font-size: 200%;
+  }  
+}
+.p-error{
+  color: red;
+}
+.description{
+  color: #999;
+  margin: 1.071rem auto 0;
+  text-align: center !important;
+}
+.left40px{
+  margin-left: 20%!important;
+}
+.with100{
+  width: 100%!important;
+}
+.height80px{
+  height: 80px!important;
+}
+.margintop50px{
+  margin-top: 50px!important;
+}
+.marginbottom0px{
+  margin-bottom: 0px!important;
+}
+.marginbottom10px{
+  margin-bottom: 10px!important;
+}
+.floatLeft{
+  float: left;
+}
+.inputAutocomplate{
+  background: white!important;
+}
+.center{
+  text-align: center!important;
+  img{
+    width: 100px;
+  }
+}
+html{font-size: 14px !important;}
+body {
+  line-height: 1.5715;
+  background-color: #fff !important;
+  font-feature-settings: 'tnum';
+}
+
+.orange{
+  background-color: #ee8572 !important;
+  height: 250px !important;
+}
+
+body{
+  overflow: auto !important;
+}

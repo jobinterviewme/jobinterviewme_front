@@ -1,0 +1,60 @@
+
+
+.makeStyles-underline-91::after{
+    border-color: #ee8572 !important;
+}
+
+h4{
+    font-family: "Gill Sans Nova Light" !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    color: #555 !important;
+    margin-bottom: 20px !important;
+}
+
+#question{
+    color: #63b7af;
+    font-size: 32px;
+}
+
+.carga{
+    width: 100px;
+}
+
+li.listaFormPreparador{
+    font-family: "Gill Sans Nova Light" !important;
+    font-size: 18px;
+    color: #555 !important;    
+    margin-left: 40px;
+    padding-left:10px;
+    margin-bottom: 10px;
+}
+
+#margen{
+    margin-top: 30px;
+}
+
+.contenedorLogin{
+    padding-top: 10vh !important;
+    padding-bottom: 8vh !important;
+}
+
+.blanco{
+    color: white !important;
+}
+
+.flotar{
+    
+position:absolute; 
+z-index:3;
+top: 5px;}
+
+.abajo{
+    z-index: 10;
+    position: relative;
+}
+
+.p-message-error{
+    margin: 5px 10px;
+}

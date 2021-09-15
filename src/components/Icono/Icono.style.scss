@@ -1,0 +1,27 @@
+.divIcono{
+    display: inline;
+}
+
+.canales{
+    display: inline;
+}
+
+.canales img, .bandera img{
+    transform: translate3d(0, 0, 0) !important;
+}
+
+.canales img{
+    width: 5% !important;
+    margin: 0 5px !important;
+}
+
+.canalesSection{
+    margin-top: 10px;
+    width: auto;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+}
