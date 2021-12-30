@@ -62,7 +62,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer className="primerGrid">
             <GridItem xs={12} sm={12} md={6} lg={6}>
-              <h1 className={classes.title}> Descubre como se prepara una entrevista profesional</h1>
+              <h1 className={classes.title}> Descubre cómo se prepara una entrevista profesional</h1>
             </GridItem>
 
             <GridItem xs={12} sm={12} md={6} lg={6} className="segundoItem">
